@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">        
+
+
+<head>          
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxOTAzMDZfMjIz/MDAxNTUxODE0NTI0MzI0.2htsSr15oQRyuQqByu7wb9IIwBRpEj3YCzAAs3MbXL8g.dyOboFU4gh_9bBcfOGIqXvviSW6xMuvDhGl7hPKe--sg.JPEG.mong728/%EC%B4%88%EA%B3%A0%ED%99%94%EC%A7%88_%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_(2).jpg?type=w800");
+            background-position: center;
+
+            color : white;
+        }   
+
+        .time {
+            font-size: 120px;
+            font-weight: bold;
+
+        }
+
+        .greeting {
+            font-size: 50px;
+
+
+        }
+
+        .todo {
+            font-size: 30px;
+
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic ;
+
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello, MINHO</div>
+        <div class="todo">매일 2H 코딩공부하기</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+
+</body>
+
+</html>
